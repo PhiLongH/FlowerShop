@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flower</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+        <h1>Welcome to Flower's shop</h1>
+        <form action="MainController" method="post">
+            Select your flowers:
+            <select name="selectFlower">
+                <option value="f001-Red rose-10"> Red Rose - 10$ </option>
+                <option value="f002-Tulip-50"> Tulip - 50$ </option>
+                <option value="f003-Daisy-30"> Daisy - 30$ </option>
+                <option value="f004-Sun Flower-60"> Sun Flower - 60$ </option>
+            </select>
+            <select name="selectQuantity">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+            </select>
+            <input type="submit" name="action" value="Add">
+            <input type="submit" name="action" value="View">
+        </form>
+</body>
+</html>
